@@ -1,0 +1,17 @@
+numbers = []
+while True:
+    user_input = input("Enter an integer (press 'q' to quit): ")
+    if user_input == 'q':
+        break
+    num = int(user_input)
+    numbers.append(num)
+
+if numbers:
+    average = sum(numbers) / len(numbers)
+    product = 1
+    for num in numbers:
+        product *= num
+    print(f"Average: {average}")
+    print(f"Product: {product}")
+else:
+    print("No numbers entered.")
