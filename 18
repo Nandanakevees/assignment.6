@@ -1,0 +1,11 @@
+divisible_by = [4, 6, 8, 10, 3, 5, 7, 9]
+
+divisible_by_4 = [num for num in even_numbers if num % 4 == 0]
+divisible_by_6 = [num for num in even_numbers if num % 6 == 0]
+divisible_by_8 = [num for num in even_numbers if num % 8 == 0]
+divisible_by_10 = [num for num in even_numbers if num % 10 == 0]
+
+print("Divisible by 4:", divisible_by_4)
+print("Divisible by 6:", divisible_by_6)
+print("Divisible by 8:", divisible_by_8)
+print("Divisible by 10:", divisible_by_10)
