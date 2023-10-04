@@ -1,0 +1,14 @@
+my_list = []
+while True:
+    user_input = input("Enter an element to add to the list (press 'q' to quit): ")
+    if user_input == 'q':
+        break
+    my_list.append(user_input)
+
+element_to_search = input("Enter an element to search and delete: ")
+if element_to_search in my_list:
+    my_list.remove(element_to_search)
+
+print("Updated list:")
+for item in my_list:
+    print(item)
