@@ -1,0 +1,8 @@
+mixed_list = [1, 2.5, "Hello", 3, "World", 4.0]
+ints_list = [item for item in mixed_list if isinstance(item, int)]
+strings_list = [item for item in mixed_list if isinstance(item, str)]
+floats_list = [item for item in mixed_list if isinstance(item, float)]
+
+print("Integers:", ints_list)
+print("Strings:", strings_list)
+print("Floats:", floats_list)
