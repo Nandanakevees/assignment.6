@@ -1,0 +1,7 @@
+sum_of_numbers = 0
+for _ in range(10):
+    num = int(input("Enter an integer: "))
+    sum_of_numbers += num
+
+average = sum_of_numbers / 10
+print(f"Average: {average}"
